@@ -353,7 +353,7 @@ const ExpenseForm = ({ onClose, onSuccess, editData }) => {
           </div>
 
           {/* Trip */}
-          <div>
+          {/* <div>
             <label className="block mb-1 font-medium text-sm">
               Trip (optional)
             </label>
@@ -372,7 +372,7 @@ const ExpenseForm = ({ onClose, onSuccess, editData }) => {
                 </option>
               ))}
             </select>
-          </div>
+          </div> */}
 
           {/* Actions */}
           <div className="flex justify-end gap-2 pt-4">

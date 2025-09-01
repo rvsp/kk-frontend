@@ -220,7 +220,7 @@ const ExpenseList = () => {
               </select>
             </div>
             {/* Trip */}
-            <div>
+            {/* <div>
               <label className="form-label">Trip</label>
               <select
                 value={filters.tripId}
@@ -236,7 +236,7 @@ const ExpenseList = () => {
                   </option>
                 ))}
               </select>
-            </div>
+            </div> */}
             {/* Dates */}
             <div>
               <label className="form-label">Start Date</label>
@@ -347,11 +347,7 @@ const ExpenseList = () => {
                         {exp.subcategory}
                       </span>
                     )}
-                    {exp.tripId?.title && (
-                      <span className="bg-blue-100 text-blue-700 rounded px-2 py-0.5">
-                        Trip: {exp.tripId.title}
-                      </span>
-                    )}
+
                     <span className="text-gray-400">
                       {formatDate(exp.date)}
                     </span>
